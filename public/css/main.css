@@ -7,3 +7,38 @@
 .red {
   background-color: red;
 }
+
+#canvas {
+  margin: auto;
+  background-color: white;
+}
+
+body {
+  background: url("../img/bbcbg.jpg");
+}
+
+#header {
+  text-align: center;
+  background-color: white;
+  border-style: solid;
+  margin-top: -15px;
+}
+
+.instruct {
+  background-color: white;
+  border-style: solid;
+  padding: 10px;
+  /*border-width: 2px;*/
+}
+
+#update {
+  padding-left: 15%;
+    /*top: 50%;
+    left: 50%;*/
+    /*margin-right:*/
+    /*transform: translate(-50%, -50%)*/
+}
+
+#clear {
+  padding-left: 25%
+}

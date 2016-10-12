@@ -3,13 +3,40 @@
   <head>
     <meta charset="utf-8">
     <title>Lite Brite</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap-theme.min.css" media="screen" title="no title">
-    <link rel="main.css" href="/css/master.css" media="screen" title="no title">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" media="screen" title="no title">
+    <link rel="stylesheet" href="css/main.css" media="screen" title="no title">
   </head>
   <body>
+    <div id=header><h1>Spacely Sprocket</h1></div>
+    <br>
     <div class="container">
     <table id="canvas"></table>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="form-group">
+          <br>
+          <label class="instruct" for="number-of-rows">Please enter the number of rows:</label>
+          <input type="number" id="number-of-rows" class="form-control" max="100">
+        </div>
+      </div>
+      <br>
+      <div class="col-md-6">
+        <div class="form-group">
+          <label class="instruct" for="number-of-cols">Please enter the number of columns:</label>
+          <input type="number" id="number-of-cols" class="form-control" max="100">
+        </div>
+      </div>
+      <div id="update" class="col-md-5">
+        <br>
+        <button id="update-grid-button" class="btn btn-success">Update Grid</button>
+      </div>
+      <div id="clear" class="col-md-5">
+        <br>
+        <button id="reset-grid-button" class="btn btn-danger">Reset Grid</button>
+      </div>
     </div>
+    </div>
+    <div class="fixed-bg"></div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.js" charset="utf-8"></script>
     <script src="js/app.js" charset="utf-8"></script>
   </body>

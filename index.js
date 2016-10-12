@@ -9,6 +9,6 @@ server.get("/", function(request, response){
 
 });
 
-servier.listen(port, function(){
+server.listen(port, function(){
   console.log("Now Listening on port..", port);
 });
