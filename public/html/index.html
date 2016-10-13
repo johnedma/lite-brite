@@ -4,8 +4,10 @@
     <meta charset="utf-8">
     <title>Lite Brite</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" media="screen" title="no title">
+    <script type="text/javascript" src="scripts/soundcloud.player.api.js"></script>
     <link rel="stylesheet" href="css/main.css" media="screen" title="no title">
   </head>
+
   <body>
     <div id=header><h1>Spacely Sprocket</h1></div>
     <br>
@@ -36,7 +38,17 @@
       </div>
     </div>
     </div>
-    <div class="fixed-bg"></div>
+
+    <script src='//w.soundcloud.com/player/api.js'></script>
+    <div class="player">
+      <span class='info'></span>
+      <div class="waveform"></div>
+      <div class="position"></div>
+    </div>
+
+    <iframe class="sc-widget" src="//w.soundcloud.com/player/?url=//soundcloud.com/kamesound/n-e-r-d-everyone-nose-kame-noise-remix">
+    </iframe>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.js" charset="utf-8"></script>
     <script src="js/app.js" charset="utf-8"></script>
   </body>
