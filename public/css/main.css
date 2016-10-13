@@ -15,7 +15,21 @@
 
 body {
   background: url("../img/bbcbg.jpg");
-  background-size:cover;
+  background-size: cover;
+}
+
+.navbar {
+  color: black;
+  font-size: 150%;
+  padding-top: 11px;
+  background-color: white;
+  text-decoration: underline;
+  border-style: solid;
+}
+
+
+#rocket {
+  background-image: url("../img/rocketlite.jpg");
 }
 
 #header {
@@ -25,9 +39,10 @@ body {
   margin-top: -15px;
 }
 
-#myPlayer
+
+/*#myPlayer*/
 body {
-  overflow: hidden;
+  overflow: scroll;
   background-color: #eee;
 }
 
@@ -37,7 +52,6 @@ iframe { display: none; }
   cursor: pointer;
   position: fixed;
   bottom: 0;
-  margin: auto;
   height: 100px;
   width: 100%;
 
@@ -50,7 +64,7 @@ iframe { display: none; }
 
 .waveform {
   z-index: 3;
-  position: absolute;
+  position: absolute
   top: 0;
   bottom: 0;
   left: 0;
@@ -92,7 +106,7 @@ iframe { display: none; }
   mix-blend-mode: difference;
 }
 
-#myplayerend
+/*#myplayerend*/
 
 .instruct {
   background-color: white;
@@ -111,4 +125,9 @@ iframe { display: none; }
 
 #clear {
   padding-left: 25%
+}
+
+#clearnav {
+  text-align: right;
+  padding-bottom: 10px;
 }
